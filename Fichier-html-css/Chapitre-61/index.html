@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>les formulaires</h1>
+    <form method="post" action="traitement.php ">
+       <select name="pays"> <!-- l'element select permet de definir une liste -->
+
+        <optgroup label="europe">EUROPE</optgroup> <!-- Avec sa valeur option on peut definir les options de notre liste -->
+            <option value="france">FRANCE</option>
+            <option value="italy">ITALY</option>
+            <option value="espagne">ESPAGNE</option>
+        <optgroup label="amerique">AMERIQUE</optgroup>
+            <option value="canada">CANADA</option>
+            <option value="etat-unis">ETAT-UNIS</option>
+        <optgroup label="afrique">AFRIQUE</optgroup>
+            <option value="maroc">MAROC</option>
+            <option value="senegal">SENEGAL</option>
+            <option value="mali">MALI</option>
+            
+        </select><br><br>
+
+        QUEL SPORT PRATIQUEZ VOUS?<br><br>
+        <input type="checkbox" id="football" name="sport" value="football">
+        <label for="football">FOOTBALL</label><br>
+        
+        <input type="checkbox" id="tennis" name="sport" value="tennis">
+        <label for="tennis">TENNIS</label><br>
+        
+        <input type="checkbox" id="vélo" name="sport" value="vélo">
+        <label for="vélo">VELO</label><br><br>
+        
+
+
+        <label for="prez">Une petite presentation</label>
+        <input type="text" id="prez" name="presentation"><br><br>
+
+        <input type="submit" value="Envoyer">
+
+    </form>
+    
+</body>
+</html>
