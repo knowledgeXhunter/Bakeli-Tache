@@ -223,7 +223,8 @@ h1 {
 }
 
 h2 {
-  color: #f9f8ff;
+  color: #a5b4fc;
+  text-align: center;
 }
 
 p,
@@ -265,8 +266,10 @@ a:hover {
   opacity: 0.5;
 }
 
-.sonenanak{
-    padding: 80px;
+.noemmes {
+    margin: 0 auto;
+    align-items: center;
+    padding: 30px;
 }
 form{
     display: flex;
@@ -282,17 +285,32 @@ input{
 }
 .form-nom-email{
   display: flex;
-  gap: 10px;
+
+
 
 }
+.form-nom-email input{
+  width: 400px;
+  margin-bottom: 20px;
+  padding: 14px;
+  justify-content: space-around;
+}
+
 label{
   color: #fff;
+  padding-bottom: 4px;
 }
 
 .form-column{
   width: 500px;  
 }
+textarea{
+  width: 400px;
+}
 
+#contact{
+  align-items: center;
+}
   footer,
   nav {
   display: flex;
