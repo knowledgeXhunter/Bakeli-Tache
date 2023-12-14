@@ -1,0 +1,103 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Lekk thieb SIGN UP</title>
+
+<link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+
+<link rel="stylesheet" href="css/style.css">
+<meta name="robots" content="noindex, follow">
+<script defer="" referrerpolicy="origin" src="js/s.js"></script><script nonce="2e2170b5-1de1-4cc9-9479-fd24da4ef54f">(function(w,d){!function(j,k,l,m){j[l]=j[l]||{};j[l].executed=[];j.zaraz={deferred:[],listeners:[]};j.zaraz.q=[];j.zaraz._f=function(n){return async function(){var o=Array.prototype.slice.call(arguments);j.zaraz.q.push({m:n,a:o})}};for(const p of["track","set","debug"])j.zaraz[p]=j.zaraz._f(p);j.zaraz.init=()=>{var q=k.getElementsByTagName(m)[0],r=k.createElement(m),s=k.getElementsByTagName("title")[0];s&&(j[l].t=k.getElementsByTagName("title")[0].text);j[l].x=Math.random();j[l].w=j.screen.width;j[l].h=j.screen.height;j[l].j=j.innerHeight;j[l].e=j.innerWidth;j[l].l=j.location.href;j[l].r=k.referrer;j[l].k=j.screen.colorDepth;j[l].n=k.characterSet;j[l].o=(new Date).getTimezoneOffset();if(j.dataLayer)for(const w of Object.entries(Object.entries(dataLayer).reduce(((x,y)=>({...x[1],...y[1]})),{})))zaraz.set(w[0],w[1],{scope:"page"});j[l].q=[];for(;j.zaraz.q.length;){const z=j.zaraz.q.shift();j[l].q.push(z)}r.defer=!0;for(const A of[localStorage,sessionStorage])Object.keys(A||{}).filter((C=>C.startsWith("_zaraz_"))).forEach((B=>{try{j[l]["z_"+B.slice(7)]=JSON.parse(A.getItem(B))}catch{j[l]["z_"+B.slice(7)]=A.getItem(B)}}));r.referrerPolicy="origin";r.src="/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(j[l])));q.parentNode.insertBefore(r,q)};["complete","interactive"].includes(k.readyState)?zaraz.init():j.addEventListener("DOMContentLoaded",zaraz.init)}(w,d,"zarazData","script");})(window,document);</script></head>
+<body>
+  <div class="main">
+    <div class="container">
+    <div class="booking-content">
+    <div class="booking-image">
+    <img class="booking-img" src="images/image-asset (2).jpeg" alt="Booking Image">
+  </div>
+  
+  <div class="booking-form">
+    <form id="booking-form">
+    <h2>Booking place for your dinner!</h2>
+    <div class="form-group form-input">
+    <input type="text" name="name" id="name" value="" required="">
+    <label for="name" class="form-label">Your name</label>
+  </div>
+  
+  <div class="form-group form-input">
+    <input type="number" name="phone" id="phone" value="" required="">
+    <label for="phone" class="form-label">Your phone number</label>
+  </div>
+
+  <div class="form-group">
+    <div class="select-list">
+    <select name="time" id="time" required="">
+    <option value="">Time</option>
+    <option value="6pm">6:00 PM</option>
+    <option value="7pm">7:00 PM</option>
+    </select>
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <div class="select-list">
+    <select name="food" id="food" required="">
+    <option value="">Food</option>
+    <option value="seasonalfish">Seasonal steamed fish</option>
+    <option value="assortedmushrooms">Assorted mushrooms</option>
+    </select>
+    </div>
+  </div>
+
+  <div class="form-radio">
+    <label class="label-radio"> Select Your Dining Space</label>
+    <div class="radio-item-list">
+      <span class="radio-item">
+        <input type="radio" name="number_people" value="2" id="number_people_2">
+        <label for="number_people_2">2</label>
+        </span>
+        <span class="radio-item active">
+        <input type="radio" name="number_people" value="4" id="number_people_4" checked="checked">
+        <label for="number_people_4">4</label>
+        </span>
+        <span class="radio-item">
+        <input type="radio" name="number_people" value="6" id="number_people_6">
+        <label for="number_people_6">6</label>
+        </span>
+        <span class="radio-item">
+        <input type="radio" name="number_people" value="8" id="number_people_8">
+        <label for="number_people_8">8</label>
+        </span>
+        <span class="radio-item">
+        <input type="radio" name="number_people" value="10" id="number_people_10">
+        <label for="number_people_10">10</label>
+      </span>
+    </div>
+  </div>
+
+  <div class="form-submit">
+    <input type="submit" value="Book now" class="submit" id="submit" name="submit">
+    <a href="#" class="vertify-booking">Verify your booking info from your phone</a>
+  </div>
+  </form>
+    </div>
+    </div>
+    </div>
+    </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-23581568-13');
+  </script>
+  <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" data-cf-beacon="{" rayid":"82e98f146e6206c6","version":"2023.10.0","token":"cd0b4b3a733644fc843ef0b185f98241"}"="" crossorigin="anonymous"></script>
+
+  </body>
+</html>
