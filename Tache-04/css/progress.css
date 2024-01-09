@@ -1,0 +1,243 @@
+/*--------------------------- Progress Bar 1 -------------------------------------*/
+
+.container {
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+    background-color: white;
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+.container .skill-box {
+    width: 100%;
+    margin: 25px 0;
+}
+
+.skill-box .title {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.skill-box .skill-bar {
+    height: 13px;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.1);
+    border-radius: 6px;
+    margin-top: 6px;
+}
+
+.skill-bar .skill-per {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    background-color: #A5C0AD;
+}
+
+.skill-per .tooltip {
+    position: absolute;
+    right: 7px;
+    top: -33px;
+    font-size: 10px;
+    font-weight: normal;
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 3px;
+    /* background-color: #A5C0AD; */
+    color: black;
+    font-size: 15px;
+}
+
+.title p{
+    text-align: start;
+    padding-right: 100px;
+}
+
+
+/*------------------------ Progress Bar 2 ----------------------------*/
+
+.container2 {
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+    background-color: white;
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+.container2 .skill-box2 {
+    width: 100%;
+    margin: 25px 0;
+}
+
+.skill-box2 .title2 {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.skill-box2 .skill-bar2 {
+    height: 13px;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.1);
+    border-radius: 6px;
+    margin-top: 6px;
+}
+
+.skill-bar2 .skill-per2 {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 90%;
+    border-radius: 6px;
+    background-color: #A5C0AD;
+}
+
+.skill-per2 .tooltip2 {
+    position: absolute;
+    right: -29px;
+    top: -33px;
+    font-size: 10px;
+    font-weight: normal;
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 3px;
+    /* background-color: #A5C0AD; */
+    color: black;
+    font-size: 15px;
+}
+
+.title2 p {
+    text-align: start;
+    padding-right: 100px;
+}
+
+
+/*----------------------- Progress Bar 3 -----------------------------------*/
+
+
+.container3 {
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+    background-color: white;
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+.container3 .skill-box3 {
+    width: 100%;
+    margin: 25px 0;
+}
+
+.skill-box3 .title3 {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.skill-box3 .skill-bar3 {
+    height: 13px;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.1);
+    border-radius: 6px;
+    margin-top: 6px;
+}
+
+.skill-bar3 .skill-per3 {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 80%;
+    border-radius: 6px;
+    background-color: #A5C0AD;
+}
+
+.skill-per3 .tooltip3 {
+    position: absolute;
+    right: -66px;
+    top: -33px;
+    font-size: 10px;
+    font-weight: normal;
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 3px;
+    /* background-color: #A5C0AD; */
+    color: black;
+    font-size: 15px;
+}
+
+.title3 p {
+    text-align: start;
+    padding-right: 100px;
+}
+
+
+/*----------------------- Progress Bar 4 --------------------------------------*/
+
+.container4 {
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+    background-color: white;
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+.container4 .skill-box4 {
+    width: 100%;
+    margin: 25px 0;
+}
+
+.skill-box4 .title4 {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.skill-box4 .skill-bar4 {
+    height: 13px;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.1);
+    border-radius: 6px;
+    margin-top: 6px;
+}
+
+.skill-bar4 .skill-per4 {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 70%;
+    border-radius: 6px;
+    background-color: #A5C0AD;
+}
+
+.skill-per4 .tooltip4 {
+    position: absolute;
+    right: -119px;
+    top: -33px;
+    font-size: 10px;
+    font-weight: normal;
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 3px;
+    /* background-color: #A5C0AD; */
+    color: black;
+    font-size: 15px;
+}
+
+.title4 p {
+    text-align: start;
+    padding-right: 100px;
+}
